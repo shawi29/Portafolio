@@ -447,8 +447,15 @@ footer a{
   color: #fff;
 }
 
-@media screen and (max-width: 31.5em) {
+@media screen and (max-width: 320px) {
   section.services ul li {
     margin: 50px 0px 50px 10px;
   }
 }
+
+@media screen and (max-width: 31.5em) {
+  section.project ul.grid {
+    padding: 10px 50px 50px 10px;
+  }
+}
+

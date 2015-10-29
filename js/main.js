@@ -24,7 +24,7 @@ $(document).ready(function() {
       }
       $(this).fadeIn(800);    
     });
-  }, 2000);
+  }, 4000);
 
   $('#about').click(function(event) {
     event.preventDefault();
