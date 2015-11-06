@@ -6,7 +6,7 @@ $(document).ready(function() {
   $(document).scroll(function () {
     var scroll = $(this).scrollTop();
 
-    if (scroll >= 630) {
+    if (scroll >= 580) {
 
       $("nav").css("background-color", "#111");
     } else {
@@ -30,6 +30,33 @@ $(document).ready(function() {
     event.preventDefault();
     $('html, body').animate({
       scrollTop: $("section#about").offset().top
-    }, 900);
+    }, 1000);
   }); 
+  $('.scroll-about a').click(function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: $("section#about").offset().top
+    }, 1000);
+  }); 
+  $('.scroll-services a').click(function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: $("section#services").offset().top
+    }, 1000);
+  });
+  $('.scroll-project a').click(function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: $("section#project").offset().top
+    }, 1000);
+  });
+  $('.scroll-contact a').click(function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: $("section#contact").offset().top
+    }, 1000);
+  });
+
 });
+
+

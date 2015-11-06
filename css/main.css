@@ -28,8 +28,8 @@ h2{
   color: #fff;
   font-size: 1.8em;
   line-height: 50px;
-  padding: 6%;
-
+  padding: 0% 0% 0% 2%;
+  letter-spacing: 1px;
 }
 .navbar-default .navbar-brand:hover,.navbar-deafult .navbar-brand:active{
   color: #fff;
@@ -95,7 +95,7 @@ header .intro-text .lead {
   box-shadow: 0 0 0 6px #41c4ab;
 }
 section{
-  padding: 9% 4%;
+  padding: 9% 7%;
 }
 section h2{
   padding-bottom: 5%;
@@ -122,7 +122,6 @@ section.about h2{
 
 section.services, section.contact{
   background-image: url("../images/congruent_pentagon.png");
-  background-attachment: scroll;
 }
 
 section.services li.item h3{
@@ -135,12 +134,13 @@ section.services li.item h3{
 
 
 .ch-grid {
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 -35px;
   padding: 0;
   list-style: none;
   display: block;
   text-align: center;
   width: 100%;
+  padding-bottom: 4%;
 }
 
 .ch-grid:after,
@@ -255,9 +255,9 @@ section.project h2{
   color: #41c4ab; 
 } 
 .grid {
-  padding: 20px 20px 0px 20px;
+  padding: 20px 20px 0px 0px;
   max-width: 1300px;
-  margin: 0 auto;
+  margin: 0px;
   list-style: none;
   text-align: center;
 }
@@ -280,6 +280,7 @@ section.project h2{
   display: block;
   position: relative;
   border-radius: 2%;
+  box-shadow: 15px 15px 15px rgb(177, 246, 203);
 }
 .grid figcaption {
   position: absolute;
@@ -419,8 +420,9 @@ section.contact form div.form-group button{
   border-radius: 10%; 
 }
 .social-icons li a:hover{
-  color: #41c4ab;
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  background-color: #41c4ab;
 }
 .social-icons li a:before {
   font-family: FontAwesome;
@@ -453,9 +455,14 @@ footer a{
   }
 }
 
+
 @media screen and (max-width: 31.5em) {
-  section.project ul.grid {
-    padding: 10px 50px 50px 10px;
+  section.project ul.grid  li{
+    margin: 10px 30px 10px -35px;
   }
 }
-
+section.project p{
+  font-family: "Cabin";
+  font-size: 2.0em;
+  font-weight: 700;
+}
