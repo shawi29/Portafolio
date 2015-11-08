@@ -449,18 +449,25 @@ footer a{
   color: #fff;
 }
 
-@media screen and (max-width: 320px) {
-  section.services ul li {
-    margin: 50px 0px 50px 10px;
+@media screen and (min-width: 320px) {
+  section.services ul li{
+    margin: 20px 0px 80px 75px;
   }
 }
 
 
 @media screen and (max-width: 31.5em) {
+  section.about img{
+    height: 250px;
+  }
   section.project ul.grid  li{
-    margin: 10px 30px 10px -35px;
+    margin: 10px 30px 10px -43px;
+  }
+  section.project ul.grid  li figure figcaption h3{
+    margin-top: 13px;
   }
 }
+
 section.project p{
   font-family: "Cabin";
   font-size: 2.0em;

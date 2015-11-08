@@ -14,6 +14,8 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="wow/css/libs/animate.css">
+
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -60,11 +62,11 @@
     </header>
     <section id="about" class="about">
       <div class="container">
-        <div class="row" data-scrollreveal="enter left">
+        <div class="row">
           <div class="col-lg-4 col-lg-offset-1">
-            <img src="images/profile1.jpg" class="img-circle img-responsive img-centered dark-faded-border animated fadeInLeft" alt="">
+            <img src="images/profile1.jpg" class="img-circle img-responsive img-centered dark-faded-border wow slideInLeft" alt="">
           </div>
-          <div class="col-lg-5 text-center " data-scrollreveal="enter right">
+          <div class="col-lg-5 text-center wow slideInRight">
             <h2>More about me...</h2>
             <p>Hi there! My name is Sharom Lang. I'm a 24 years old Front End Developer from Laboratoria. I started in tech knowing nothing and after just 5 months, I can do amazing stuff. I discovered a new world where every effort has a reward and where I can learn something new everyday.  I love it and I want to keep doing it for ever.</p> 
             <p><em>"Never judge a book by its cover"</em></p>
@@ -82,7 +84,7 @@
         <div class="row">  
           <ul class="ch-grid">
             <li>
-              <div class="ch-item ch-img-1">
+              <div class="ch-item ch-img-1 wow animated flip">
                 <div class="ch-info">
                   <h3>Balsamiq</h3>
                 </div>
@@ -90,7 +92,7 @@
               <h3>Responsive Mockups</h3>
             </li>
             <li>
-              <div class="ch-item ch-img-3">
+              <div class="ch-item ch-img-3 wow animated flip">
                 <div class="ch-info">
                   <h3>HTML</h3>
                   <h3>CSS</h3>
@@ -100,7 +102,7 @@
               <h3>Programming </h3>
             </li>
             <li>
-              <div class="ch-item ch-img-2">
+              <div class="ch-item ch-img-2 wow animated flip">
                 <div class="ch-info">
                   <h3>Bootstrap</h3>
                   <h3>Jquery</h3>
@@ -110,7 +112,7 @@
               <h3>Tools and Frameworks</h3>
             </li>
             <li>
-              <div class="ch-item ch-img-4">
+              <div class="ch-item ch-img-4 wow animated flip">
                 <div class="ch-info">
                   <h3>WordPress</h3>
                 </div>
@@ -133,7 +135,7 @@
           <div class="col-lg-12">    
             <ul class="grid cs-style-1">
               <li>
-                <figure>
+                <figure class="wow fadeIn">
                   <img src="images/gallery/flat-theme.png" alt="flat-theme">
                   <figcaption>
                     <h3>FLAT THEME</h3>
@@ -142,7 +144,7 @@
                 </figure>
               </li>         
               <li>
-                <figure>
+                <figure class="wow fadeIn">
                   <img src="images/gallery/freelancer.png" alt="freelancer page">
                   <figcaption>
                     <h3>FREELANCER</h3>
@@ -157,7 +159,7 @@
           <div class="col-lg-12 col-xs-12">    
             <ul class="grid cs-style-1">
               <li>
-                <figure>
+                <figure class="wow fadeIn">
                   <img src="images/gallery/dashboard.png" alt="panel de administracion">
                   <figcaption>
                     <h3>DASHBOARD</h3>
@@ -166,7 +168,7 @@
                 </figure>
               </li>         
               <li>
-                <figure>
+                <figure class="wow fadeIn">
                   <img src="images/gallery/primes.png" alt="primes">
                   <figcaption>
                     <h3>PRIMES</h3>
@@ -242,5 +244,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>  
     <script type="js/toucheffects.js"></script> 
+    <script src="wow/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 
